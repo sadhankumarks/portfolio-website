@@ -24,7 +24,7 @@ z-index: 100;
 }
 
 .logo{
-    font-size: 45px;
+    font-size: 75px;
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
@@ -49,16 +49,15 @@ z-index: 100;
 
 .home{
     height: 100vh;
-    background: #081b29;
-    background-size: cover;
-    background-position: center;
+    background-color: #081b29;
     display: flex;
     align-items: center;
+    flex-direction: row;
     padding: 0 10%;
 }
 
 .home-content{
-    
+   
     max-width: 600px ;
 }
 
@@ -121,6 +120,15 @@ height: 50px;
 .btn-box a:nth-child(2)::before{
     background: #00abf0;
 }
+
+img{
+   position: relative;
+   top: 10vh;
+   left: 30vw;
+   width: 500px;
+   height: 500px;
+}
+
 
 .btn-box a::before{
     content: "";
